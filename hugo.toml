@@ -1,0 +1,44 @@
+baseURL = 'aanohins.github.io'
+languageCode = 'en-us'
+title = "A.Anohins"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+
+[params]
+author = "Alexander Anohin"
+description = "Alexander Anohin's personal website"
+info = ["Software Engineer", "Java/Kotlin/Scala"]
+keywords = "blog,developer,personal"
+avatarURL = "images/avatar.png"
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/aanohins/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/aanohin/"
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
